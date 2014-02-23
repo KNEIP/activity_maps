@@ -1,0 +1,17 @@
+<head>
+  <title>activity_maps</title>
+</head>
+
+<body>
+  {{> activity_logs}}
+</body>
+
+<template name="activity_logs">
+  <h1>Recent activities</h1>
+
+  <ul>
+    {{#each activities}}
+    <li>{{message}}</li>
+    {{/each}}
+  </ul>
+</template>
