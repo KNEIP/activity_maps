@@ -1,17 +1,22 @@
+<!-- Metor set <!DOCTYPE html> automatically -->
 <head>
-  <title>activity_maps</title>
+  <title>Activity Maps</title>
 </head>
 
 <body>
-  {{> activity_logs}}
+  <div class="row-fluid">
+    <div class="span1"></div>
+    <div class="span10">{{> activity_logs}}</div>
+    <div class="span1"></div>
+  </div>
 </body>
 
 <template name="activity_logs">
   <h1>Recent activities</h1>
 
-  <ul>
+  <div class="well well-small">
     {{#each activities}}
-    <li>{{message}}</li>
+    <p>{{message}}</p>
     {{/each}}
-  </ul>
+  </div>
 </template>
