@@ -6,10 +6,10 @@ Sees your activities in real-time on a world map.
 
 You have to install meteor first, then clone this repository and execute meteor:
 
-  curl https://install.meteor.com | /bin/sh
-  git clone https://github.com/KNEIP/activity_maps.git
-  cd activity_maps/
-  meteor
+    curl https://install.meteor.com | /bin/sh
+    git clone https://github.com/KNEIP/activity_maps.git
+    cd activity_maps/
+    meteor
 
 Now open your browser to http://localhost:3000/.
 
