@@ -4,11 +4,13 @@ Sees your activities in real-time on a world map.
 
 # Make it runs
 
-You have to install meteor first, then clone this repository and execute meteor:
+You have to install meteor and meteorite first, then clone this repository and execute meteor:
 
     curl https://install.meteor.com | /bin/sh
+    npm install -g meteorite
     git clone https://github.com/KNEIP/activity_maps.git
     cd activity_maps/
+    mrt add collection-api
     meteor
 
 Now open your browser to http://localhost:3000/.
