@@ -2,6 +2,8 @@
 
 Sees your activities in real-time on a world map.
 
+![Activity Maps screenshot](doc/activity_maps_screenshot.png)
+
 # Make it runs
 
 You have to install meteor and meteorite first, then clone this repository and execute meteor:
