@@ -4,6 +4,13 @@ Sees your activities in real-time on a world map.
 
 ![Activity Maps screenshot](doc/activity_maps_screenshot.png)
 
+# Technology stack
+
+This project use [Meteor](http://www.meteor.com/) with [Meteorite](https://github.com/oortcloud/meteorite).
+The SVG map is done using [DataMaps](http://datamaps.github.io/).
+The API is done with [meteor-collectionapi](https://github.com/crazytoad/meteor-collectionapi).
+The map is updated on activity insert thanks to [meteor-collection-hooks](https://github.com/matb33/meteor-collection-hooks).
+
 # Make it runs
 
 You have to install meteor and meteorite first, then clone this repository and execute meteor:
