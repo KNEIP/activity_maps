@@ -10,8 +10,7 @@ You have to install meteor and meteorite first, then clone this repository and e
     npm install -g meteorite
     git clone https://github.com/KNEIP/activity_maps.git
     cd activity_maps/
-    mrt add collection-api
-    meteor
+    mrt
 
 Now open your browser to http://localhost:3000/.
 

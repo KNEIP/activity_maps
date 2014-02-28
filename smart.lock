@@ -2,13 +2,25 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "collection-api": {}
+      "collection-api": {},
+      "collection-hooks": {},
+      "topojson": {}
     },
     "packages": {
       "collection-api": {
         "git": "https://github.com/crazytoad/meteor-collectionapi.git",
         "tag": "v0.1.15",
         "commit": "b62c51f387287726cf3b64077f7bc69604ec2f5e"
+      },
+      "collection-hooks": {
+        "git": "https://github.com/matb33/meteor-collection-hooks.git",
+        "tag": "v0.6.2",
+        "commit": "29484b2110206be93b01c6d11ce06ec9208de7bd"
+      },
+      "topojson": {
+        "git": "https://github.com/vsivsi/meteor-topojson.git",
+        "tag": "v0.0.1",
+        "commit": "213cba5fb3429b1396ffee0fe4990832187d8a0d"
       }
     }
   }

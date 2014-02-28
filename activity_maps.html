@@ -6,10 +6,21 @@
 <body>
   <div class="row-fluid">
     <div class="span1"></div>
+    <div class="span10">{{> activity_map}}</div>
+    <div class="span1"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="span1"></div>
     <div class="span10">{{> activity_logs}}</div>
     <div class="span1"></div>
   </div>
 </body>
+
+<template name="activity_map">
+  <h1>Your activities</h1>
+
+  <div id="container" style="height: 1000px;"></div>
+</template>
 
 <template name="activity_logs">
   <h1>Recent activities</h1>

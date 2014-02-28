@@ -9,3 +9,6 @@ insecure
 preserve-inputs
 collection-api
 bootstrap
+collection-hooks
+d3
+topojson

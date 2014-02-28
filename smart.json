@@ -1,5 +1,7 @@
 {
   "packages": {
-    "collection-api": {}
+    "collection-api": {},
+    "collection-hooks": {},
+    "topojson": {}
   }
 }
