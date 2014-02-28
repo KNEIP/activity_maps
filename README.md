@@ -34,4 +34,4 @@ Returns the activity for the given id
 
 Create a new activity
 
-    $ curl -d "{\"message\": \"This is my message\"}" http://localhost:3000/api/activities
+    $ curl -d "{\"iso\": \"pr\", \"message\": \"This is my message\"}" http://localhost:3000/api/activities
